@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="bg-gray-700 border-gray-200 ">
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                 <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="https://i.postimg.cc/CKXR9LKK/zona-defi-logo.webp" className="h-8 w-10 lg:h-9 lg:w-11" alt="ZonaDefi logo" />
+                    <img src="/zona-defi-logo.webp" className="h-8 w-10 lg:h-9 lg:w-11" alt="ZonaDefi logo" />
                     <span className="font-onest self-center text-2xl md:text-3xl lg:text-3xl font-bold whitespace-nowrap text-white">ZonaDefi</span>
                 </Link>
                 <div className="flex items-center space-x-6 rtl:space-x-reverse">

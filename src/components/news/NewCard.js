@@ -11,12 +11,13 @@ const NewCard = ({ article }) => {
     }
 
     return (
-        <div className="h-full bg-white shadow dark:bg-gray-800 dark:border-gray-700">
-        <Link href={`/${article.slug}`}>
+        <div className="h-full bg-white shadow rounded-xl">
+        <Link href={`/noticias/${article.slug}`}>
             <div className="relative w-full h-60">
                 <Image  
                 src={'https://res.cloudinary.com/dvf7opqxb/' + article.thumbernail}
                 layout="fill"
+                className="rounded-t-xl"
                 alt="Imágen de artículo" 
                 >
                 </Image>

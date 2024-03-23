@@ -1,19 +1,21 @@
-"use client"
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import NewCard from "../../src/components/news/NewCard";
+"use client"; 
 
+import React, { useState, useEffect } from 'react';
+import NewCard from "../../src/components/news/NewCard";
+import { fetchNews } from '../../api/api';
 
 const News = () => {
     const [news, setNews] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:8000/api/news/')
-        .then(response => setNews(response.data.new))
-        .catch(error => console.error('Error fetching news: ', error))
-    }, [])
+        const getNews = async () => {
+            const fetchedNews = await fetchNews();
+            setNews(fetchedNews.props.news);
 
-    console.log(news)
+        };
+        getNews();
+        
+    }, []);
 
     return(
         <div>
@@ -34,6 +36,7 @@ const News = () => {
 }
 
 export default News;
+
 
 
 

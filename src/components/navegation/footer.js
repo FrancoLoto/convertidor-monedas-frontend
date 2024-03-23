@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
                     <Link href="/" className="flex items-center">
-                        <img src="https://i.postimg.cc/CKXR9LKK/zona-defi-logo.webp" className="h-11 w-11 me-3" alt="ZonaDefi Logo" />
+                        <img src="/zona-defi-logo.webp" className="h-11 w-11 me-3" alt="ZonaDefi Logo" />
                         <span className="self-center font-onest text-3xl font-bold whitespace-nowrap text-white">ZonaDefi</span>
                     </Link>
                 </div>
