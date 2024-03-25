@@ -5,7 +5,7 @@ import { fetchNewDetail } from "../../../api/api";
 
 
 const ArticleDetail = ({params: {slug}}) => {
-     const [newDetail, setNewDetail] = useState([]);
+    const [newDetail, setNewDetail] = useState([]);
 
     useEffect(() => {
         const getNewDetail = async () => {

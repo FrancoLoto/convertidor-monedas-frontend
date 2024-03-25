@@ -30,7 +30,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-sm md:text-md lg:text-lg font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                        <h2 className="mb-6 text-sm md:text-md lg:text-lg font-semibold text-gray-900 uppercase dark:text-white">Seguínos</h2>
                         <ul className="text-gray-400 font-medium">
                             <li className="mb-4">
                                 <Link href="#" className="hover:text-orange-200 text-sm md:text-md lg:text-lg xl:text-lg">Github</Link>
